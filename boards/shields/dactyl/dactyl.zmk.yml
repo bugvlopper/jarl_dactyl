@@ -1,0 +1,12 @@
+file_format: "1"
+id: dactyl
+name: Jarl_split_dactyl
+type: shield
+url: https://github.com/bugvlopper/zmk-config-dactyl/
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - dactyl_left
+  - dactyl_right
+
