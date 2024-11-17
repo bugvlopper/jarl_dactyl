@@ -1,7 +1,7 @@
 #include "dactyl.dtsi"
 
 &kscan0 {
-	col-gpio
+	col-gpios
 		= <&gpio1 06 GPIO_ACTIVE_HIGH>
 		, <&gpio1 04 GPIO_ACTIVE_HIGH>
 		, <&gpio0 11 GPIO_ACTIVE_HIGH>
