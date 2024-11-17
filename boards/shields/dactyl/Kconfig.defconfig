@@ -1,7 +1,7 @@
 if SHIELD_DACTYL_RIGHT
 
-config ZMK_DACTYL_RIGHT
-	default "dactyl_right"
+config ZMK_KEYBOARD_NAME
+	default "Jarl_dactyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
