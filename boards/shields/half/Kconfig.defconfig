@@ -1,0 +1,6 @@
+if SHIELD_half
+
+config ZMK_KEYBOARD_NAME
+	default "half"
+endif
+

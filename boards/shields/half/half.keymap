@@ -1,0 +1,43 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+
+		default_layer {
+			
+			bindings = <
+				&kp 6		&kp 7		&kp 8		&kp 9		&kp 0		&kp EQUAL    
+				&kp Y		&kp U		&kp I		&kp O     	&kp P     	&kp NUBS  
+				&kp H    	&kp J    	&kp K    	&kp L     	&kp SEMI     	&kp SQT 
+				&kp N 		&kp M 		&kp COMMA    	&kp DOT     	&kp FSLH     	&kp NUBS 
+				&kp BSPC  	&kp RET   	&kp SPACE    	&kp UP 		&kp DOWN    
+				&kp A  		&kp Z     
+			>;
+
+		};
+			next_layer {
+			
+			bindings = <
+				&kp ESC    &bt BT_CLR    &bt BT_PRV    &bt BT_NXT     &out OUT_BLE  &out OUT_USB  
+				&kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G 
+				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B 
+				&none  &none   &kp RET    &kp SPACE &kp P  &kp LSHIFT    
+			>;
+
+		};
+//		layer {
+//			
+//			bindings = <
+//				&bt BT_CLR_ALL    &bt BT_SEL 0    &bt BT_SEL 1    &kp E     &kp R     &kp T  
+//				&kp TAB    &bt BT_CLR    &kp S    &kp D     &kp F     &kp G 
+//				&kp LSHIFT &bt BT_DISC    &kp X    &kp C     &kp V     &kp B 
+//				&none  &none   &kp RET    &kp SPACE &trans  &kp LSHIFT    
+//			>;
+//
+//		};
+	};
+};
