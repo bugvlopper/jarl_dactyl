@@ -3,7 +3,6 @@ id: half
 name: half
 type: shield
 requires: [nice!nano_v2]
-exposes: [i2c_oled]
 features:
     - keys
-      - display
+      

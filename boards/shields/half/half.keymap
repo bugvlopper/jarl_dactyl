@@ -19,15 +19,10 @@
 			>;
 
 		};
-//		layer {
-//			
-//			bindings = <
-//				&bt BT_CLR_ALL    &bt BT_SEL 0    &bt BT_SEL 1    &kp E     &kp R     &kp T  
-//				&kp TAB    &bt BT_CLR    &kp S    &kp D     &kp F     &kp G 
-//				&kp LSHIFT &bt BT_DISC    &kp X    &kp C     &kp V     &kp B 
-//				&none  &none   &kp RET    &kp SPACE &trans  &kp LSHIFT    
-//			>;
-//
-//		};
+
 	};
+};
+
+&led_strip {
+	chain-length = <31>;
 };

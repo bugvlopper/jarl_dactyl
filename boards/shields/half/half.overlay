@@ -2,6 +2,7 @@
 / {
 	chosen {
 		zmk,kscan = &kscan0;
+		zmk,underglow = &led_strip;
 	};
 
 	kscan0: kscan_0 {
@@ -25,7 +26,6 @@
 			, <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-
 			;
 	};
 
