@@ -17,12 +17,12 @@
 #     artifact-name: corne_left_with_logging
 #
 #---
-#include:
-#  - board: nice_nano_v2
-#    shield: dactyl_left
-#  - board: nice_nano_v2
-#    shield: dactyl_right
-
 include:
   - board: nice_nano_v2
-    shield: half
+    shield: dactyl_left
+  - board: nice_nano_v2
+    shield: dactyl_right
+
+#include:
+#  - board: nice_nano_v2
+#    shield: half
