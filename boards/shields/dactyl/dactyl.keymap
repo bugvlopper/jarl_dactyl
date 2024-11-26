@@ -20,3 +20,7 @@
 		};
 	};
 };
+
+&led-strip {
+	chain-length = <31>;
+};
