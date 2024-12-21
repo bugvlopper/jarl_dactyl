@@ -13,7 +13,7 @@
 		&kp TAB   &kp Q &kp W &kp E &kp R &kp T     			&kp Y &kp U &kp I  &kp O &kp P  &kp LBKT     
 		&kp TAB   &kp A &kp S &kp D &kp F &kp G     			&kp H &kp J &kp K  &kp L &kp SEMI  &kp SQT     
 		&kp LCTRL &kp Z &kp X &kp C &kp V &kp B   			&kp N &kp M &kp COMMA  &kp DOT &kp FSLH  &kp NUBS     
-		          &kp LGUI &kp RIGHT &kp LALT &kp LSHIFT &kp LCTRL		&kp RET &lt 1 SPACE &mt LSHIFT BSPC  &kp UP &kp DOWN       
+		          &kp LGUI &kp RIGHT &kp LALT &mt LSHIFT RET &kp LCTRL		&kp RET &lt 1 SPACE &mt LSHIFT BSPC  &kp UP &kp DOWN       
 		                            &kp HOME &kp Y 			&mo 1 &kp END       
 			>;
 
@@ -25,7 +25,7 @@
 		&kp TAB   &kp Q &kp W &kp E &kp R &kp T     			&kp Y &kp U &kp I  &kp O &kp P  &kp CARET     
 		&kp TAB   &kp A &kp S &kp D &kp F &kp G     			&kp LEFT &kp DOWN &kp UP  &kp RIGHT &kp SEMI  &kp SQT     
 		&kp LCTRL &kp Z &kp X &kp C &kp V &kp B   			&kp N &kp M &kp COMMA  &kp DOT &kp FSLH  &kp NUBS     
-		          &kp LEFT &kp RIGHT &trans &kp LSHIFT &trans 		&kp BSPC &kp RET &kp SPACE  &kp UP &kp DOWN       
+			&kp LEFT &kp RIGHT &trans &kp LSHIFT &trans 		&kp BSPC &kp RET &kp SPACE  &kp UP &kp DEL        
 		                            &kp HOME &mo 2 			&trans &kp END       
 			>;
 
