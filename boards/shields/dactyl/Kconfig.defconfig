@@ -6,8 +6,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
-config CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC
-	default y
+#config CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC
+#	default y
 
 endif
 
